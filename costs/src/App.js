@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import Home from './components/pages/Home.jsx'
-import Company from './components/pages/Company.jsx'
-import Contact from './components/pages/Contact.jsx'
-import NewProject from './components/pages/NewProject.jsx'
+import Home from './componets/pages/Home'
+import Company from './componets/pages/Company'
+import Contact from './componets/pages/Contact'
+import NewProject from './componets/pages/NewProject'
+
 
 function App() {
   return (
