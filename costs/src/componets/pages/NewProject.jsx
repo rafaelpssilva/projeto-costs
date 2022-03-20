@@ -1,6 +1,6 @@
-function NewProject() {
+function NewProject () {
     return (
-        <h1>NewProject</h1>
+        <h1>New Project</h1>
     )
 }
 
