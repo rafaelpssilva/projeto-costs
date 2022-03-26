@@ -1,21 +1,83 @@
 {
-  "projects" : [],
-  "categories" : [
-      {
-          "id": 1,
-          "name": "Infra"
+  "projects": [
+    {
+      "name": "Dev",
+      "budget": "50000",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Design",
+      "budget": "4000",
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "infra",
+      "budget": "100000",
+      "category": {
+        "id": "1"
       },
-      {
-          "id": 2,
-          "name": "Desenvolvimento"
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "teste",
+      "budget": "5000",
+      "category": {
+        "id": "2"
       },
-      {
-          "id": 3,
-          "name": "Design"
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "budget": "3",
+      "name": "2",
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "name": "Master",
+      "budget": "997",
+      "category": {
+        "id": "4"
       },
-      {
-          "id": 4,
-          "name": "Planejamento"
-      }
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "budget": "1000",
+      "category": {
+        "id": "2"
+      },
+      "name": "a",
+      "cost": 0,
+      "services": [],
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
   ]
 }
